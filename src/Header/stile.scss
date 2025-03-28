@@ -1,0 +1,122 @@
+.header-section {
+    padding: 2rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  
+    &.visible {
+      transform: translateY(0);
+    }
+  }
+  
+  .header-container {
+    .header-navBar {
+      margin: 0 auto;
+    }
+  }
+  
+  .nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    list-style-type: none;
+  
+
+    a {
+      position: relative;
+      color: rgb(23, 23, 24);
+      text-decoration: none;
+      font-size: 23px;
+      text-shadow: 7px 10px 13px #535252;
+  
+      &::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 2rem;
+        width: 0;
+        height: 3px;
+        border-radius: 5px;
+        background-color: rgb(223, 139, 84);
+        transition: width 0.3s ease;
+      }
+  
+      &:hover::after {
+        width: 100%;
+      }
+    }
+  }
+  
+  .burger-btn {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 1.5rem;
+    right: 2rem;
+    z-index: 10;
+ 
+    .icon-shadow{
+        filter: drop-shadow(0 3px 1px rgba(0, 0, 0, 0.838));
+    }
+  }
+  
+  // Мобильный режим
+  @media (max-width: 540px) {
+    .header-container {
+      padding: 0.6rem;
+     
+    }
+  
+    .header-section {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      background-color: rgb(54 54 54 / 84%);    }
+  
+    .burger-btn {
+      display: block;
+    }
+  
+    .header-navBar {
+      position: fixed;
+      inset: 0;
+      background-color: rgba(0, 0, 0, 0.95);
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s ease, visibility 0.3s ease;
+      pointer-events: none;
+      z-index: -1;
+  
+      &.active {
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+      }
+  
+      .nav-menu {
+        flex-direction: column;
+        gap: 2rem;
+  
+        a {
+            color: white;
+          font-size: 1.5rem;
+  
+          &::after {
+            top: 2.5rem;
+          }
+        }
+      }
+    }
+  }
+  

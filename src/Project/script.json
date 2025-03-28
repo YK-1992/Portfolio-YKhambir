@@ -1,0 +1,45 @@
+[
+    { 
+      "id": 1, 
+      "backgroundImage": "/public/logo-yks-ervice.png", 
+      "name": "Cleaning service YK",
+      "demo": "https://yk-poject-clean.netlify.app/",
+      "git": "https://github.com/YK-1992/portfolio-yk.github.io/tree/project-Cleaning/Project-Cleaning",
+      "intro": "Welcome to YK Services – your go-to solution for all home service needs! From professional cleaning and pet care to small repairs and moving support!"
+
+    },
+    { 
+      "id": 2, 
+      "backgroundImage": "/public/sushi-app.png", 
+      "name": "Sushi-app",
+      "demo": "https://shushi-app.netlify.app/home",
+      "git": "https://github.com/YK-1992/Sushi-app",
+      "intro": " A responsive e-commerce web application for ordering sushi, built with React and Redux Toolkit, MUI, motion."
+
+    },
+    { 
+      "id": 3, 
+      "backgroundImage": "/public/img1.jpg", 
+      "name": "Project 3",
+      "demo": "#",
+      "git": "#",
+      "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sed voluptatem rem atque itaque, illo quae a, beatae, animi quos tempora ullam quo illum. Aliquid id eveniet omnis laborum voluptatum."
+    },
+    { 
+      "id": 4, 
+      "backgroundImage": "/public/img2.jpg", 
+      "name": "Project 4",
+      "demo": "#",
+      "git": "#",
+      "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sed voluptatem rem atque itaque, illo quae a, beatae, animi quos tempora ullam quo illum. Aliquid id eveniet omnis laborum voluptatum."
+    },
+    { 
+      "id": 5, 
+      "backgroundImage": "/public/img3.jpg", 
+      "name": "Project 5",
+      "demo": "#",
+      "git": "#",
+      "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sed voluptatem rem atque itaque, illo quae a, beatae, animi quos tempora ullam quo illum. Aliquid id eveniet omnis laborum voluptatum."
+    }
+  ]
+  

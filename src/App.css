@@ -1,0 +1,27 @@
+#root {
+ 
+}
+html, body {
+  margin: 0;
+  padding: 0;
+scroll-snap-type: y mandatory;
+  background: rgb(218, 218, 218);
+  background: linear-gradient(64deg, rgb(253 253 253) 40%, rgba(233, 233, 233, 1) 61%, rgb(175 175 175) 100%);
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+
+
+}
+section{
+  height: 100vh; 
+  overflow: hidden;
+  scroll-snap-align: start;
+  
+}
+
+@media (max-width: 768px) {
+  section{
+    height: 100%;
+  }
+}

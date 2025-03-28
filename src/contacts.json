@@ -1,0 +1,21 @@
+[
+    {
+        "id": "1",
+        "name": "Linkedin",
+        "web": "https://www.linkedin.com/in/yaroslav-khambir-803903210/",
+        "icon": "./icon/linkedIn.png"
+    },
+    {
+        "id": "2",
+        "name": "GitHub",
+        "web": "https://github.com/YK-1992?tab=repositories",
+        "icon": "./icon/git.png"
+    },
+    {
+        "id": "3",
+        "name": "Instagram",
+        "web": "https://www.instagram.com/kham.berg/",
+        "icon": "./icon/insta.png"
+    }
+
+]

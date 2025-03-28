@@ -1,0 +1,126 @@
+.container-about{
+    padding: 4rem;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    
+    align-items: center;
+    text-align: justify;
+    .about-picture-section{
+
+        .photo-block{
+            border-radius: 20rem;
+            position: relative;
+            width: 25rem;
+            height: 25rem;
+            overflow: hidden;
+            box-shadow: 7px 0px 23px #222121;
+           z-index: 9;
+           background-color: #6e7c88;
+        
+            img{
+                position: absolute;
+                width: 87%;
+                top: -3rem;
+                left: -1rem;
+                padding: 21px;
+            }
+        }
+        .border-line{
+            position: absolute;
+            top: 2rem;
+            left: 15rem;
+            width: 251px;
+            height: 650px;
+            border: 2px solid #b0533087;
+        
+            .border-section{
+               
+                background: rgb(128 128 128);
+                width: 100%;
+                height: inherit;
+                margin: -1rem;
+               
+               
+            
+            }
+        }
+            
+        }
+
+    .about-section{
+        position: relative;
+        margin: auto;
+        width: 460px;
+        font-size: 18px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        text-align: justify;
+        
+        h1{
+            font-size: 48px;
+            margin: 0;
+            font-family: "Poppins", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+            text-shadow: 7px 10px 13px #535252;
+          
+
+        }
+        .box-style{
+    position: absolute;
+    background: rgba(248, 139, 61, 0.745);
+    padding: 1.7rem;
+    width: 25px;
+    height: 2px;
+    top: 0rem;
+    right: 13rem;
+    opacity: 0.3;
+        }
+        span{
+            font-weight: 500;
+            font-size: 19px;
+        }
+    }
+    .button-CV{
+padding: 1rem;
+margin-top: 1rem;
+background: #222121;
+color: white;
+font-size: 15px;
+font-weight: 400;
+font-family: "Poppins", sans-serif;
+font-style: normal;
+cursor: pointer;
+    }
+    .button-CV:hover{
+        background:#535252;
+    }
+}
+
+@media (max-width: 320px) {}    /* очень маленькие устройства (старые смартфоны) */
+@media (max-width: 480px) {}    /* смартфоны */
+@media (max-width: 768px) {
+    .container-about {
+        .about-picture-section{
+            .photo-block{
+                width: 20rem;
+                height: 20rem;
+            }
+            .border-line{
+                position: absolute;
+  
+    left: 14rem;
+    width: 169px;
+    height: 431px;
+                .border-section{
+                    width: 97%;
+    height: 47vh;
+                }
+            }
+        }
+    }
+}    /* планшеты */
+@media (max-width: 1024px) {}   /* маленькие ноутбуки и планшеты в горизонтальном положении */
+ 

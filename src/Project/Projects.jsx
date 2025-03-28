@@ -3,7 +3,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { FaArrowRight, FaArrowLeft, FaGithub } from "react-icons/fa";
 import { IoMdLink } from "react-icons/io";
 import './projects.css';
-import Script from './script.json';
+import Script from '../script.json';
 
 const Projects = () => {
   const [items, setItems] = useState(Script);

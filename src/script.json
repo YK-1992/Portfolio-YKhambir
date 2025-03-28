@@ -1,7 +1,7 @@
 [
     { 
       "id": 1, 
-      "backgroundImage": "/public/logo-yks-ervice.png", 
+      "backgroundImage": "/logo-yks-ervice.png", 
       "name": "Cleaning service YK",
       "demo": "https://yk-poject-clean.netlify.app/",
       "git": "https://github.com/YK-1992/portfolio-yk.github.io/tree/project-Cleaning/Project-Cleaning",
@@ -10,7 +10,7 @@
     },
     { 
       "id": 2, 
-      "backgroundImage": "/public/sushi-app.png", 
+      "backgroundImage": "/sushi-app.png", 
       "name": "Sushi-app",
       "demo": "https://shushi-app.netlify.app/home",
       "git": "https://github.com/YK-1992/Sushi-app",
@@ -19,7 +19,7 @@
     },
     { 
       "id": 3, 
-      "backgroundImage": "/public/img1.jpg", 
+      "backgroundImage": "/img1.jpg", 
       "name": "Project 3",
       "demo": "#",
       "git": "#",
@@ -27,7 +27,7 @@
     },
     { 
       "id": 4, 
-      "backgroundImage": "/public/img2.jpg", 
+      "backgroundImage": "/img2.jpg", 
       "name": "Project 4",
       "demo": "#",
       "git": "#",
@@ -35,7 +35,7 @@
     },
     { 
       "id": 5, 
-      "backgroundImage": "/public/img3.jpg", 
+      "backgroundImage": "/img3.jpg", 
       "name": "Project 5",
       "demo": "#",
       "git": "#",

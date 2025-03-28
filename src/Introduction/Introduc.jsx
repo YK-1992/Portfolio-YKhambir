@@ -1,6 +1,7 @@
 import "./style-introduc.scss"
 import Links from '../contacts.json'
 import HeaderBlock from "../Header/Header"
+import { motion } from "motion/react"
 const Introduction = () => {
     return (
 <>
@@ -12,7 +13,7 @@ const Introduction = () => {
 
     <div className="name-section">
         <span>Hallo</span>
-        <h1>I`M YAROSLAV KHAMBIR</h1>
+        <h1>I`M YAROSLAV KHAMBIR!</h1>
         <p> 
     <span> &mdash; FRONT END DEVELOPER,</span> with knowledge in web development and design, I offer the best projects resulting in quality work. 
         </p>

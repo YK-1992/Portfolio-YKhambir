@@ -51,7 +51,7 @@
     .about-section{
         position: relative;
         margin: auto;
-        width: 460px;
+        width: 55vh;
         font-size: 18px;
         font-family: "Poppins", sans-serif;
         font-weight: 300;
@@ -69,14 +69,14 @@
 
         }
         .box-style{
-    position: absolute;
-    background: rgba(248, 139, 61, 0.745);
-    padding: 1.7rem;
-    width: 25px;
-    height: 2px;
-    top: 0rem;
-    right: 13rem;
-    opacity: 0.3;
+            position: relative;
+            background: rgba(248, 139, 61, 0.745);
+            padding: 1.7rem;
+            width: 25px;
+            height: 2px;
+            top: -6rem;
+            right: -12rem;
+            opacity: 0.3;
         }
         span{
             font-weight: 500;
@@ -103,6 +103,10 @@ cursor: pointer;
 @media (max-width: 480px) {}    /* смартфоны */
 @media (max-width: 768px) {
     .container-about {
+        padding: 2rem;
+        .about-section{
+            padding-top: 9rem;
+        }
         .about-picture-section{
             .photo-block{
                 width: 20rem;

@@ -37,7 +37,7 @@ const Introduction = () => {
         variants={container}
         initial="hidden"
         animate="visible"
-        style={{ display: 'flex', flexWrap: 'wrap', fontSize: '3.5rem', fontWeight: 'bold' }}
+        style={{ display: 'flex', flexWrap: 'wrap', fontSize: '3.4rem', fontWeight: 'bold' }}
         >
         
         {name.split('').map((world, index) => (

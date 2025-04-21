@@ -89,6 +89,8 @@ gap: 1rem;
         .links-button:hover{
             background: linear-gradient(123deg, rgb(212, 122, 31) 40%, rgba(233, 233, 233, 0) 61%, rgba(32, 32, 32, 0.95) 100%);            padding: 5px;
             box-shadow: 2px 0px 4px #000000;
+            transform: translateY(-5px); 
+            transition: transform 0.8s ease, background-color 0.3s ease;
         }
     }
 } 

@@ -2,10 +2,10 @@ import './about.scss'
 import { motion } from 'framer-motion';
 const About = () => {
     const loadCV = () => {
-        window.open("./CV YKhambir.pdf");
+        window.open("./YKhambir_CV.pdf");
       };
     return (
-        <>
+        <div className='section'>
         <div className="container-about" id='about'>
             <div className="about-picture-section">
             <motion.div 
@@ -60,7 +60,7 @@ const About = () => {
             </div>
 
         </div>
-        </>
+        </div>
     )
 }
 

@@ -19,27 +19,11 @@
     },
     { 
       "id": 3, 
-      "backgroundImage": "/img1.jpg", 
-      "name": "Project 3",
-      "demo": "#",
-      "git": "#",
-      "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sed voluptatem rem atque itaque, illo quae a, beatae, animi quos tempora ullam quo illum. Aliquid id eveniet omnis laborum voluptatum."
-    },
-    { 
-      "id": 4, 
-      "backgroundImage": "/img2.jpg", 
-      "name": "Project 4",
-      "demo": "#",
-      "git": "#",
-      "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sed voluptatem rem atque itaque, illo quae a, beatae, animi quos tempora ullam quo illum. Aliquid id eveniet omnis laborum voluptatum."
-    },
-    { 
-      "id": 5, 
-      "backgroundImage": "/img3.jpg", 
-      "name": "Project 5",
-      "demo": "#",
-      "git": "#",
-      "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sed voluptatem rem atque itaque, illo quae a, beatae, animi quos tempora ullam quo illum. Aliquid id eveniet omnis laborum voluptatum."
+      "backgroundImage": "/Ai study.png", 
+      "name": "Ai light search",
+      "demo": "https://light-ai-search.netlify.app/",
+      "git": "https://github.com/YK-1992/Ai-search",
+      "intro": "An interactive learning application in React that allows the user to input any question and receive an explanation from the GPT-3.5 neural network - in simple words and in the same language as the question is being asked."
     }
   ]
   

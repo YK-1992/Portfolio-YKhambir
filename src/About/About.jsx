@@ -2,7 +2,7 @@ import './about.scss'
 import { motion } from 'framer-motion';
 const About = () => {
     const loadCV = () => {
-        window.open("./YKhambir_CV.pdf");
+        window.open("./CV YarKhambir.pdf");
       };
     return (
         <div className='section'>
